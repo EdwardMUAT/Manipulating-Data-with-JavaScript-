@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 Sorter</title>
+    <link rel="stylesheet" href="./style/movie.css">
+ </head>
+ <body>
+    <header>
+        <h1> Favorite Movies</h1>
+    </header>
+
+    <main class="container">
+        <form id="frmMovie" onsubmit="addMovie(event);">
+            <!--Create a label tha explains what info the text box neds to have entered -->
+            <label for="txtMovie">Enter Movie Title</label>
+            <!-- movie textbox -->
+             <input type="text" id="txtMovie" name="txtMovie" placeholder="Movie Title" required>
+             <!-- button to create the event that adds the movie -->
+              <button type="submit">Add Movie</button>
+        </form>
+
+        <div id="divMovieList"></div>
+        <button onclick="clearList();">Clear List</button>
+    </main>
+
+
+    <script src="./js/movies.js"></script>
+ </body>
+ </html>

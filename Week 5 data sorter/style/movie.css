@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(173, 120, 238);
+    color: black;
+    margin:  0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+h1{
+    color: rgb(250, 4, 53);
+}
+form{
+   margin: 20px; 
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 51);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+
+label{
+    color: rgb(255, 0, 0);
+}
+
+.container{
+    background-color:rgb(255, 249, 249) ;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 200px;
+    text-align: center;
+}
